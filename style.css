@@ -1,0 +1,66 @@
+header{
+    padding-left: 1vh;
+    display: flex;
+    background-color: darkgray;
+    justify-content: left;
+    gap: 1vw;
+}
+
+body{
+    background-color: #f2f3f4;
+}
+
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body main #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid black;
+    height: 95%; /* so it's tall enough to see */
+    width: 95%;
+}
+
+body main #container .table {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    padding: 1rem; /* optional: for spacing inside */
+    gap: 1%;
+    flex-direction: row;
+    width: 90%;
+    height: 30%;
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+}
+
+body main #container .table .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+body main #container .table img{
+    height: 100%;
+    width: auto;
+    border-radius: 2px;
+}
+body main #top{
+    display: flex;
+    justify-content: center;
+}
+
+body main #top h1 {
+    background: linear-gradient(to right, #ff5c00, #1338be, #ffffff);
+    color: #ffffff;
+}
+
